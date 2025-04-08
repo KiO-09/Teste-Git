@@ -1,0 +1,6 @@
+int x, y;
+Console.WriteLine("digite a base de uma potência: ");
+x = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("digite um expoente para a potência: ");
+y = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("o resultado da potência é: " + Math.Pow(x, y));
