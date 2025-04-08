@@ -1,0 +1,30 @@
+int valorsaque, novovalor, resto;
+Console.WriteLine("digite o valor de saque");
+valorsaque = Convert.ToInt16(Console.ReadLine());
+novovalor = valorsaque / 100;
+resto = valorsaque - (novovalor *100);
+Console.WriteLine("Nota[s] de 100: " + novovalor);
+novovalor = resto / 50;
+resto = resto - (novovalor * 50);
+Console.WriteLine("Nota[s] de 50: " + novovalor);
+novovalor = resto / 20;
+resto = resto - (novovalor * 20);
+Console.WriteLine("Nota[s] de 20: " + novovalor);
+novovalor = resto / 10;
+resto = resto - (novovalor * 10);
+Console.WriteLine("Nota[s] de 10: " + novovalor);
+novovalor = resto / 5;
+resto = resto - (novovalor * 5);
+Console.WriteLine("Nota[s] de 5: " + novovalor);
+novovalor = resto / 2;
+resto = resto - (novovalor * 2);
+Console.WriteLine("Nota[s] de 2: " + novovalor);
+novovalor = resto / 1;
+resto = resto - (novovalor * 1);
+Console.WriteLine("Nota[s] de 1: " + novovalor);
+
+
+
+
+
+
